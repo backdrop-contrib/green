@@ -19,6 +19,9 @@ Installation
 - Visit the configuration page under Administration > Appearance >
   Green (admin/appearance/) enable & set to default.
 
+Screenshot:
+------------
+
 ![ScreenShot](https://raw.githubusercontent.com/backdrop-contrib/green/images/img/green_screenshot.png)
 
 
