@@ -19,6 +19,8 @@ Installation
 - Visit the configuration page under Administration > Appearance >
   Green (admin/appearance/) enable & set to default.
 
+![screenshot](/../<images>/img/green_screenshot.png?raw=true "Green Screenshot")
+
 
 - Using Bundler
 ------------
