@@ -45,6 +45,8 @@ This will install the relevant gems and ensure your theme stays at those version
 
 ### Maintenance
 
-The Green theme is maintained by [Ezenwa Isiogu](http://drupal.org/user/820332) ([@snugug](http://twitter.com/snugug)) and [Ian Carrico](http://drupal.org/user/1300542) ([@iamcarrico](http://twitter.com/iamcarrico))
+The Green Theme is currently maintained by Ezenwa Isiogu (@ezenwaisiogu) (https://github.com/clickbox)
 
-Any updates or changes to the Aurora Yeoman Generator can be made on it's [GitHub page](https://github.com/Snugug/generator-aurora). Please either submit an issue or a pull request with the desired changes.
+### Credits
+
+This Theme is adpated from Aurora for Drupal by Sam Richard (https://github.com/snugug)
