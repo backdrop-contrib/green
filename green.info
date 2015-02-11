@@ -1,5 +1,5 @@
 name = Green
-description =  Green- a theme for Backdrop CMS.
+description =  Lightweight Responsive Ready HTML5 base theme for Backdrop CMS
 version = BACKDROP_VERSION
 backdrop = 1.x
 
@@ -21,5 +21,4 @@ settings[color] = true
 ; ========================================
 ; Scripts
 ; ========================================
-
 

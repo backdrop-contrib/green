@@ -1,4 +1,50 @@
 <?php
+/**
+ * @file
+ * Contains functions to alter Backdrops's markup for the Green theme.
+ *
+ *        _d^^^^^^^^^b_
+ *     .d''           ``b.
+ *   .p'  @          @   `q.       NOTHING TO DO HERE
+ *  .d'    ----------     `b.
+ * .d'                     `b.
+ * ::                       ::
+ * ::                       ::
+ * ::                       ::
+ * `p.                     .q'
+ *  `p.                   .q'
+ *    `b.               .d'\
+ *     / ^q...........p^    \
+ *    /       ''''bbbbbbb    \
+ *   /  __    __ \bbbbbbbb   /
+ *    \_bbbbbbbb__\________/
+ *       bb   bbbbbbbbbbbbbbb
+ *                bb|bbbbbbb  ***
+ *                 b|bbbbb   ******
+ *       _______    |        **000***
+ *     /         \  |         **00000**
+ *   __|__________\/            ***   **
+ *  /  |                         *      *
+ * |    \
+ * |      \__
+ *  \
+ *   \__
+ *
+ * The Green theme is a base theme designed to be easily extended by sub
+ * themes. You should not modify this or any other file in the Green theme
+ * folder. Instead, you should create a sub-theme and make your changes there.
+ * In fact, if you're reading this, you may already off on the wrong foot.
+ *
+ * See the project page for more information:
+ *   https://backdropcms.org/guide/themes
+ */
+
+
+//////////////////////////////
+// Includes
+//////////////////////////////
+
+<?php
 
 /**
  * Implements hook_preprocess_maintenance_page().

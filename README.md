@@ -1,60 +1,50 @@
-Green
-======================
+# Green
 
-A modern theme for Backdrop CMS
-
-Responsive base theme using SingularityGS with Breakpoint 
-Options
------------- 
-- Grunt with LiveReload
-- Bower
-- Normalize.scss
-
-Installation
-------------
-
-- Install this theme using the official Backdrop CMS instructions at
-  https://backdropcms.org/guide/themes
-
-- Visit the configuration page under Administration > Appearance >
-  Green (admin/appearance/) enable & set to default.
-
-Screenshot:
-------------
-
-![ScreenShot](https://raw.githubusercontent.com/backdrop-contrib/green/images/img/green_screenshot.png)
+Green is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices.
 
 
-- Using Bundler
-------------
 
-Bundler is the standard Ruby gem for managing gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. This stuff moves fast, and if you are updating your gems without understanding them, they break... Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
+## Yeoman
+
+Theme generation is being moved to [Yeoman](http://yeoman.io/). Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced. To use Yeoman, make sure you have installed [node.js](http://nodejs.org/), then run once from the command line:
+
+
+
+## Using Bundler
+
+Bundler is standard Ruby of managing gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. As stated above, this stuff moves fast, and if you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
 
 Installing Bundler is easy, type the following into your command line:
 
-gem install bundler
+`gem install bundler`
 
-The following command will install the relevant gems and ensure your theme stays at those versions: 
+Once you've installed Bundler, in your theme's directory, where your `config.rb` file is, create a file called `Gemfile`. The Gemfile that comes with new Green 1.x subthemes looks like this:
 
-bundle install
+```
+# Pull gems from RubyGems
+source 'https://rubygems.org'
 
-Then, to compile, instead of using compass watch, use the following:
+gem 'toolkit', '~>1.0.0'
+gem 'singularitygs', '~>1.0.7'
+gem 'breakpoint', '~>2.0.2'
+gem 'sassy-buttons', '~>0.1.4'
 
-bundle exec compass watch --poll
+# Now that you're using Bundler, you need to run `bundle exec compass watch` instead of simply `compass watch`.
+```
 
-License
--------
+Once you've set up your Gemfile, in your command line, run the following:
 
-This project is GPL v2 software. See the LICENSE.txt file in this directory for
-complete text.
+`bundle install`
 
-Current Maintainers
--------------------
+This will install the relevant gems and ensure your theme stays at those versions. Then, to compile, instead of using `compass watch`, use the following:
 
-- Ezenwa Isiogu (https://github.com/clickbox/)
+`bundle exec compass watch`
 
-Credits
--------
 
-This theme is adapted from Aurora originally designed for Drupal by Sam Richard
-(https://www.drupal.org/project/aurora)
+```
+
+### Maintenance
+
+The Green theme is maintained by [Ezenwa Isiogu](http://drupal.org/user/820332) ([@snugug](http://twitter.com/snugug)) and [Ian Carrico](http://drupal.org/user/1300542) ([@iamcarrico](http://twitter.com/iamcarrico))
+
+Any updates or changes to the Aurora Yeoman Generator can be made on it's [GitHub page](https://github.com/Snugug/generator-aurora). Please either submit an issue or a pull request with the desired changes.
