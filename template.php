@@ -44,7 +44,6 @@
 // Includes
 //////////////////////////////
 
-<?php
 
 /**
  * Implements hook_preprocess_maintenance_page().
