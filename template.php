@@ -34,15 +34,6 @@
 //////////////////////////////
 
 /**
- * Implements green_preprocess_html(). used for adding external CSS style sheets
- */
-/**
-*function green_preprocess_html(&$variables) {
-*  backdrop_add_css('http://fonts.googleapis.com/css?family=Montserrat'>, array('type' => 'external'));
-*}
-*/
-
-/**
  * Implements hook_preprocess_maintenance_page().
  */
 function green_preprocess_maintenance_page(&$variables) {
