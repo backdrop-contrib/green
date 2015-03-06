@@ -1,6 +1,6 @@
 # Green
 
-Green is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices.
+Green is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices. 
 
 
 
@@ -27,7 +27,7 @@ source 'https://rubygems.org'
 gem 'toolkit', '~>1.0.0'
 gem 'singularitygs', '~>1.0.7'
 gem 'breakpoint', '~>2.0.2'
-gem 'sassy-buttons', '~>0.1.4'
+gem 'font-awesome-sass'
 
 # Now that you're using Bundler, you need to run `bundle exec compass watch` instead of simply `compass watch`.
 ```
