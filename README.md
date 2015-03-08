@@ -8,6 +8,7 @@ Green is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-st
 
 Theme generation is being moved to [Yeoman](http://yeoman.io/). Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced. To use Yeoman, make sure you have installed [node.js](http://nodejs.org/), then run once from the command line:
 
+npm install -g yo
 
 
 ## Using Bundler
