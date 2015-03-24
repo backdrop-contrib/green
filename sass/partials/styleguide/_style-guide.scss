@@ -7,8 +7,12 @@
 // All Style Guide selectors should go in here, regardless of layout or design (but separating the two in here is a good idea).
 ////////////////////////
 
-a li {
+ul li.leaf {
 list-style-type: none;
-list-image-type: none;
+list-style-image: none;
 
+}
+
+a {
+text-decoration: none;
 }
