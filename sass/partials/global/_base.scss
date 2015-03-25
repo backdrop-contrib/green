@@ -9,16 +9,20 @@
 ////////////////////////
 // Compass Extensions
 ////////////////////////
-//@import 'breakpoint';
-//@import 'singularitygs';
-//@import 'toolkit';
-//@import 'toolkit/kickstart';
+@import 'breakpoint';
+@import 'singularitygs';
+@import 'toolkit';
+@import 'toolkit/kickstart';
 
 ////////////////////////
 // Private Imports
 ////////////////////////
-//@import "font-awesome-sprockets";
-//@import "font-awesome";
 
+@include add-grid(23);
+@include add-gutter(0);
 
+@include sgs-change('direction', 'ltr');
+@include sgs-change('output', 'isolation');
+
+@include sgs-change('debug', true);
 

@@ -6,3 +6,7 @@
 //
 // All box model properties go here
 ////////////////////////
+header {
+@include grid-span(23, 1);
+height: 100px;
+}

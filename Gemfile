@@ -2,7 +2,9 @@
 source 'https://rubygems.org'
 
 # ~> Refers to all versions of the given gem on the current full version number, so it will be able to use any version of Compass Green until Compass Green 4.x.x. For a specific version of a gem, remove the ~>
-gem 'toolkit', '~>1.0.0'
-gem 'singularitygs', '~>1.0.7'
-gem 'breakpoint', '~>2.0.2'
-gem 'font-awesome-sass'
+gem 'toolkit', '~>2.0'
+gem 'breakpoint', '~>2.0'
+gem 'font-awesome-sass', '~> 4.3.0'
+gem 'singularitygs', '~>1.2'
+gem 'sass', '~>3.3'
+gem 'compass', '~>1.0'
