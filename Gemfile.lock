@@ -7,7 +7,6 @@ GEM
     chunky_png (1.3.4)
     compass (1.0.3)
       chunky_png (~> 1.2)
-<<<<<<< HEAD
       compass-core (~> 1.0.2)
       compass-import-once (~> 1.0.5)
       rb-fsevent (>= 0.9.3)
@@ -33,41 +32,14 @@ GEM
       sass (~> 3.3)
     toolkit (2.9.0)
       sass (~> 3.3)
-=======
-      fssm (>= 0.2.7)
-      sass (~> 3.1)
-    font-awesome-sass (4.3.2.1)
-      sass (~> 3.2)
-    fssm (0.2.10)
-    sass (3.2.8)
-    sassy-strings (0.3.1)
-      compass (>= 0.12.2)
-    singularitygs (1.0.8)
-      breakpoint (>= 2.0.1)
-      compass (>= 0.12.2)
-      sass (>= 3.2.1)
-    toolkit (1.0.0)
-      breakpoint (>= 2.0.2)
-      color-schemer (>= 0.2.3)
-      compass (>= 0.12.2)
-      sassy-strings (>= 0.1)
-      singularitygs (>= 1.0.7)
->>>>>>> aca2d313ed16906032313608730cdae4a5fdd9d7
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   breakpoint (~> 2.0)
   compass (~> 1.0)
   font-awesome-sass (~> 4.3.0)
   sass (~> 3.3)
   singularitygs (~> 1.2)
   toolkit (~> 2.0)
-=======
-  breakpoint (~> 2.0.2)
-  font-awesome-sass
-  singularitygs (~> 1.0.7)
-  toolkit (~> 1.0.0)
->>>>>>> aca2d313ed16906032313608730cdae4a5fdd9d7
