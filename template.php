@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Contains functions to alter Backdrops's markup for the Green theme.
+ * Contains functions to alter Backdrops's markup for the Wormhole theme.
  *      ████████
 *     ███░░▓▓▓▓███
 *     █░░░░▓▓▓▓░░█
@@ -19,8 +19,8 @@
 *      █░░░░░░░░█
 *       ████████
  *
- * The Green theme is a base theme designed to be easily extended by sub
- * themes. You should not modify this or any other file in the Green theme
+ * The Wormhole theme is a base theme designed to be easily extended by sub
+ * themes. You should not modify this or any other file in the Wormhole theme
  * folder. Instead, you should create a sub-theme and make your changes there.
  * In fact, if you're reading this, you may already off on the wrong foot.
  *
@@ -36,14 +36,14 @@
 /**
  * Implements hook_preprocess_maintenance_page().
  */
-function green_preprocess_maintenance_page(&$variables) {
-  backdrop_add_css(backdrop_get_path('theme', 'green') . '/css/maintenance-page.css');
+function wormhole_preprocess_maintenance_page(&$variables) {
+  backdrop_add_css(backdrop_get_path('theme', 'wormhole') . '/css/maintenance-page.css');
 }
 
 /**
  * Implements hook_preprocess_layout().
  */
-function green_preprocess_layout(&$variables) {
+function wormhole_preprocess_layout(&$variables) {
   if ($variables['content']['header']) {
     $variables['content']['header'] = '<div class="l-header-inner">' . $variables['content']['header'] . '</div>';
   }
@@ -52,14 +52,14 @@ function green_preprocess_layout(&$variables) {
 /**
  * Implements theme_menu_tree().
  */
-function green_menu_tree($variables) {
+function wormhole_menu_tree($variables) {
   return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
 }
 
 /**
  * Implements theme_field__field_type().
  */
-function green_field__taxonomy_term_reference($variables) {
+function wormhole_field__taxonomy_term_reference($variables) {
   $output = '';
 
   // Render the label, if it's not hidden.

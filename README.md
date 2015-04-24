@@ -1,15 +1,6 @@
-# Green
+# Wormhole
 
-Green is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices. 
-
-
-
-## Yeoman
-
-Theme generation is being moved to [Yeoman](http://yeoman.io/). Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced. To use Yeoman, make sure you have installed [node.js](http://nodejs.org/), then run once from the command line:
-
-npm install -g yo
-
+Wormhole is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices. 
 
 ## Using Bundler
 
@@ -19,7 +10,7 @@ Installing Bundler is easy, type the following into your command line:
 
 `gem install bundler`
 
-Once you've installed Bundler, in your theme's directory, where your `config.rb` file is, create a file called `Gemfile`. The Gemfile that comes with new Green 1.x subthemes looks like this:
+Once you've installed Bundler, in your theme's directory, where your `config.rb` file is, create a file called `Gemfile`. The Gemfile that comes with new Wormhole 1.x subthemes looks like this:
 
 ```
 # Pull gems from RubyGems
@@ -46,7 +37,7 @@ This will install the relevant gems and ensure your theme stays at those version
 
 ### Maintenance
 
-The Green Theme is currently maintained by Ezenwa Isiogu (@ezenwaisiogu) (https://github.com/clickbox)
+The Wormhole Theme is currently maintained by Ezenwa Isiogu (@ezenwaisiogu) (https://github.com/clickbox)
 
 ### Credits
 

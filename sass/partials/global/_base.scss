@@ -13,16 +13,18 @@
 @import 'singularitygs';
 @import 'toolkit';
 @import 'toolkit/kickstart';
+@import 'font-awesome-compass';
+@import 'font-awesome';
 
 ////////////////////////
-// Private Imports
+// Example Grid
 ////////////////////////
 
-@include add-grid(23);
-@include add-gutter(0);
+//@include add-grid(23);
+//@include add-gutter(0);
 
-@include sgs-change('direction', 'ltr');
-@include sgs-change('output', 'isolation');
+//@include sgs-change('direction', 'ltr');
+//@include sgs-change('output', 'isolation');
 
-@include sgs-change('debug', true);
+//@include sgs-change('debug', true);
 

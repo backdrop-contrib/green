@@ -7,7 +7,7 @@
  *
  * @see template_preprocess()
  * @see template_preprocess_maintenance_page()
- * @see green_process_maintenance_page()
+ * @see wormhole_process_maintenance_page()
  */
 ?>
 <!DOCTYPE html>

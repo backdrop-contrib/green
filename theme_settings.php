@@ -1,9 +1,9 @@
 <?php
 /**
  * @file
- * Theme settings file for Green.
+ * Theme settings file for Wormhole.
  *
- * Although Green itself does not provide any settings, we use this file to
+ * Although Wormhole itself does not provide any settings, we use this file to
  * inform the user that the module supports color schemes if the Color module
  * is enabled.
  */

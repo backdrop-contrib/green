@@ -1,5 +1,5 @@
-name = Green
-description =  Lightweight Responsive Ready HTML5 base theme for Backdrop CMS
+name = Wormhole
+description =  A shortcut made possible by a singularity.
 version = BACKDROP_VERSION
 backdrop = 1.x
 
@@ -10,9 +10,6 @@ backdrop = 1.x
 
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
-
-; Uncomment to use Color Module 
-; stylesheets[all][] = css/colors.css
 
 ; We need at least one setting for the theme settings page to appear in the
 ; menu. Color module provides our defaults, so we just register a dummy setting.

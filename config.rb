@@ -2,6 +2,7 @@
 require 'singularitygs'
 require 'toolkit'
 require 'breakpoint'
+require 'font-awesome-sass'
 
 # Set this to the root of your project when deployed:
 http_path = "/sites/themes/green"
