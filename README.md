@@ -19,11 +19,9 @@ source 'https://rubygems.org'
 gem 'toolkit', '~>1.0.0'
 gem 'singularitygs', '~>1.0.7'
 gem 'breakpoint', '~>2.0.2'
-gem 'font-awesome-sass'
 
 # Now that you're using Bundler, you need to run `bundle exec compass watch` instead of simply `compass watch`.
 ```
-
 Once you've set up your Gemfile, in your command line, run the following:
 
 `bundle install`
@@ -31,6 +29,18 @@ Once you've set up your Gemfile, in your command line, run the following:
 This will install the relevant gems and ensure your theme stays at those versions. Then, to compile, instead of using `compass watch`, use the following:
 
 `bundle exec compass watch`
+
+## Using Bower
+
+Alternatively, Singularity can be installed with Bower (bower install singularity --save)
+
+## Using Eyeglass
+
+It can even be installed as an Eyeglass module! (npm install singularitygs --save-dev)
+
+## Notes
+
+Singularity requires a Sass compiler with full feature parity with the Ruby Sass 3.3 implementation in order to work
 
 
 ```
