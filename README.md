@@ -34,11 +34,15 @@ This will install the relevant gems and ensure your theme stays at those version
 
 ## Using Bower 
 
-Alternatively, Singularity can be installed with Bower (bower install singularity --save)
+Alternatively, Singularity can be installed with Bower:
+
+`bower install singularity --save`
 
 ## Using Eyeglass
 
-Singularity can even be installed as an [Eyeglass](https://github.com/sass-eyeglass/eyeglass) module! (npm install singularitygs --save-dev)
+Singularity can even be installed as an [Eyeglass](https://github.com/sass-eyeglass/eyeglass) module! 
+
+`npm install singularitygs --save-dev`
 
 ### Notes
 
