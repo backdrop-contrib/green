@@ -44,20 +44,25 @@ Singularity can even be installed as an [Eyeglass](https://github.com/sass-eyegl
 
 `npm install singularitygs --save-dev`
 
+```
 ### Notes
 
 Singularity requires a Sass compiler with full feature parity with the Ruby Sass 3.3 implementation in order to work.
 
+```
 ### Setting Up a Basic Grid
 
 [Grids](https://github.com/at-import/Singularity/wiki/Creating-Grids) are made of 3 parts, the Grid definition defining columns, Gutter definition defining spacing between columns, Gutter Style defining how gutters are positioned relative to a column. Singularity supports [Symmetric](https://github.com/at-import/Singularity/wiki/Creating-Grids#symmetric-grids) and [Asymmetric](https://github.com/at-import/Singularity/wiki/Creating-Grids#asymmetric-grids) grids, as well as fluid and [fixed](https://github.com/at-import/Singularity/wiki/Creating-Grids#fixed-gutters) gutters. Setting grids up this way puts them into Singularity's **Global Grid Context**.
 
+## Recommended Backdrop modules to extend functionality
 
-```
+- [Blockify](https://github.com/backdrop-contrib/blockify)
+- [Styleguide](https://github.com/backdrop-contrib/styleguide)
+
 
 ### Maintenance
 
-The Wormhole Theme is currently maintained by Ezenwa Isiogu (@ezenwaisiogu) (https://github.com/clickbox)
+The Wormhole Theme is currently maintained by [Ezenwa Isiogu](http://ezenwa.io/) (@ezenwaisiogu) (https://github.com/clickbox)
 
 ### Credits
 
