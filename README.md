@@ -4,7 +4,7 @@ Wormhole is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass
 
 ## Using Bundler
 
-Bundler is standard Ruby of managing gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. As stated above, this stuff moves fast, and if you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
+Bundler is standard for managing Ruby gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. As stated above, this stuff moves fast, and if you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
 
 Installing Bundler is easy, type the following into your command line:
 
@@ -20,7 +20,9 @@ gem 'toolkit', '~>1.0.0'
 gem 'singularitygs', '~>1.0.7'
 gem 'breakpoint', '~>2.0.2'
 
-# Now that you're using Bundler, you need to run `bundle exec compass watch` instead of simply `compass watch`.
+# Now that you're using Bundler, you need to run 
+`bundle exec compass watch` instead of simply 
+`compass watch`.
 ```
 Once you've set up your Gemfile, in your command line, run the following:
 
@@ -36,7 +38,7 @@ Alternatively, Singularity can be installed with Bower (bower install singularit
 
 ## Using Eyeglass
 
-It can even be installed as an Eyeglass module! (npm install singularitygs --save-dev)
+Singularity can even be installed as an Eyeglass module! (npm install singularitygs --save-dev)
 
 ## Notes
 
