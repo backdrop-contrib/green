@@ -54,7 +54,7 @@ Singularity requires a Sass compiler with full feature parity with the Ruby Sass
 
 [Grids](https://github.com/at-import/Singularity/wiki/Creating-Grids) are made of 3 parts, the Grid definition defining columns, Gutter definition defining spacing between columns, Gutter Style defining how gutters are positioned relative to a column. Singularity supports [Symmetric](https://github.com/at-import/Singularity/wiki/Creating-Grids#symmetric-grids) and [Asymmetric](https://github.com/at-import/Singularity/wiki/Creating-Grids#asymmetric-grids) grids, as well as fluid and [fixed](https://github.com/at-import/Singularity/wiki/Creating-Grids#fixed-gutters) gutters. Setting grids up this way puts them into Singularity's **Global Grid Context**.
 
-## Recommended Backdrop modules to extend functionality
+## Recommended Backdrop modules
 
 - [Blockify](https://github.com/backdrop-contrib/blockify)
 - [Styleguide](https://github.com/backdrop-contrib/styleguide)
