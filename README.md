@@ -4,7 +4,7 @@ Wormhole is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass
 
 ## Using Bundler
 
-Bundler is standard for managing Ruby gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. As stated above, this stuff moves fast, and if you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
+[Bundler](http://bundler.io/) is the standard for managing Ruby gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. If you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
 
 Installing Bundler is easy, type the following into your command line:
 
@@ -32,17 +32,21 @@ This will install the relevant gems and ensure your theme stays at those version
 
 `bundle exec compass watch`
 
-## Using Bower
+## Using Bower 
 
 Alternatively, Singularity can be installed with Bower (bower install singularity --save)
 
 ## Using Eyeglass
 
-Singularity can even be installed as an Eyeglass module! (npm install singularitygs --save-dev)
+Singularity can even be installed as an [Eyeglass](https://github.com/sass-eyeglass/eyeglass) module! (npm install singularitygs --save-dev)
 
 ## Notes
 
 Singularity requires a Sass compiler with full feature parity with the Ruby Sass 3.3 implementation in order to work
+
+### Setting Up a Basic Grid
+
+[Grids](https://github.com/at-import/Singularity/wiki/Creating-Grids) are made of 3 parts, the Grid definition defining columns, Gutter definition defining spacing between columns, Gutter Style defining how gutters are positioned relative to a column. Singularity supports [Symmetric](https://github.com/at-import/Singularity/wiki/Creating-Grids#symmetric-grids) and [Asymmetric](https://github.com/at-import/Singularity/wiki/Creating-Grids#asymmetric-grids) grids, as well as fluid and [fixed](https://github.com/at-import/Singularity/wiki/Creating-Grids#fixed-gutters) gutters. Setting grids up this way puts them into Singularity's **Global Grid Context**.
 
 
 ```
