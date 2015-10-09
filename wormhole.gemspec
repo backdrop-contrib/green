@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.summary = "The companion gem for the Backdrop Wormhole base theme."
   s.authors = ["Sam Richard", "Ian Carrico"]
   s.email = ["snugug@gmail.com", "github@iancarrico.com"]
+  s.homepage = "https://rubygems.org/gems/compass-aurora/versions/3.0.9"
   s.licenses = ["GPL"]
 
   # Files to Include
