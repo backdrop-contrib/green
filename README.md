@@ -34,7 +34,7 @@ This will install the relevant gems and ensure your theme stays at those version
 
 ## Using Bower 
 
-Alternatively, Singularity can be installed with Bower:
+Alternatively, Singularity can be installed with [Bower](http://bower.io/):
 
 `bower install singularity --save`
 
