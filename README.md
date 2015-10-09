@@ -2,7 +2,7 @@
 
 Wormhole is an HTML5, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices. 
 
-## Using Bundler
+# Using Bundler
 
 [Bundler](http://bundler.io/) is the standard for managing Ruby gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. If you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
 
