@@ -48,7 +48,7 @@ Singularity can even be installed as an [Eyeglass](https://github.com/sass-eyegl
 
 ```
 Singularity requires a Sass compiler with full feature parity with the
- Ruby Sass 3.3 implementation in order to work.
+Ruby Sass 3.3 implementation in order to work.
 
 ```
 ### Setting Up a Basic Grid
