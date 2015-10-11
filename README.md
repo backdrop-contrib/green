@@ -76,4 +76,4 @@ The Wormhole Theme is currently maintained by [Ezenwa Isiogu](http://ezenwa.io/)
 
 ### Credits
 
-This Theme is adpated from Aurora for Drupal by Sam Richard (https://github.com/snugug)
+This Theme is adpated from [Aurora](https://www.drupal.org/project/aurora) for Drupal by Sam Richard (https://github.com/snugug)
