@@ -1,6 +1,10 @@
 # Wormhole
 
-Wormhole is an [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices. 
+Wormhole is a [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) powered minimalist base theme. It is optimized for both responsive and mobile first web design. Built to encourage best modern front end practices. 
+
+# INSTALLATION
+- Install this theme using the official Backdrop CMS instructions at
+  https://backdropcms.org/guide/themes
 
 # Using Bundler
 
@@ -60,10 +64,15 @@ Ruby Sass 3.3 implementation in order to work.
 - [Blockify](https://github.com/backdrop-contrib/blockify)
 - [Styleguide](https://github.com/backdrop-contrib/styleguide)
 
+## License
 
-### Maintenance
+This project is GPL v2 software. See the LICENSE.txt file in this directory for complete text.
+
+### Current Maintainers
 
 The Wormhole Theme is currently maintained by [Ezenwa Isiogu](http://ezenwa.io/) (@ezenwaisiogu) (https://github.com/clickbox)
+
+-This theme is currently seeking maintainers.
 
 ### Credits
 
