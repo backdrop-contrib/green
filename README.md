@@ -63,6 +63,7 @@ Ruby Sass 3.3 implementation in order to work.
 
 - [Blockify](https://github.com/backdrop-contrib/blockify)
 - [Styleguide](https://github.com/backdrop-contrib/styleguide)
+- [Code Filter](https://github.com/backdrop-contrib/codefilter)
 
 ## License
 
