@@ -12,7 +12,7 @@ Generate subthemes using Yeoman. Yeoman has a heart of gold. He's a person with 
 
 `npm install -g yo generator-backdroptheme`
 
-Within a new theme folder, run:
+Within an empty theme folder, run:
 
 `yo backdroptheme`
 
