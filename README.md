@@ -6,6 +6,15 @@ Wormhole is a [Sass](http://sass-lang.com/) and [Compass](http://compass-style.o
 - Install this theme using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/themes
 
+# Yeoman
+
+Generate subthemes using Yeoman. Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced. To use Yeoman, make sure you have installed node.js, then run once from the command line:
+
+'npm install -g yo generator-backdroptheme'
+Within a new theme folder, run:
+
+'yo backdroptheme'
+
 # Using Bundler
 
 [Bundler](http://bundler.io/) is the standard for managing Ruby gem dependencies, and it is highly encouraged you use it to ensure that your project is using the correct version of required gems. If you are updating your gems without understanding what they break, it's likely you're going to get yourself into trouble. Bundler helps to ensure you can use the cutting edge gems on new projects while not breaking old projects.
