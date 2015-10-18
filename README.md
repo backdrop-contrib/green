@@ -10,10 +10,10 @@ Wormhole is a [Sass](http://sass-lang.com/) and [Compass](http://compass-style.o
 
 Generate subthemes using Yeoman. Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced. To use Yeoman, make sure you have installed node.js, then run once from the command line:
 
-'npm install -g yo generator-backdroptheme'
+`npm install -g yo generator-backdroptheme`
 Within a new theme folder, run:
 
-'yo backdroptheme'
+`yo backdroptheme`
 
 # Using Bundler
 
